@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel='shortcut icon' href='images/favicon.ico' type='images/x-icon' />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta Content-Type=text/html> <meta charset=UTF-8>
+</head>
+<nav class="extended">
+  <div class="blue darken-1 nav-wrapper z-depth-3 black-text">
+    <ul class="hide-on-med-and-down right">
+      <li><a href="index">Home</a></li>
+      <li class="active"><a href="resume">Resume</a></li>
+    </ul>
+    <div class="container">
+      <a href="#" class="sidenav-trigger" data-target="mobile-navbar"><i class='material-icons'>menu</i></a>
+    </div>
+  </div>
+</nav>
+
+<ul class="sidenav grey lighten-4" id="mobile-navbar">
+  <li><a href="index">Home</a></li>
+  <li class="active"><a href="resume">Resume</a></li>
+</ul>
+
+
+
+<section>
+  <div class="top-section">
+    <h2 class="center-align">Resume</h2>
+    <br>
+    <h5 class="center">or download here:</h5>
+    <br>
+    <div class="center"><a href="doc/BonOnlineResume.pdf" target="_black" class="blue darken-1 waves-effect waves-light btn-large"><i class="large material-icons">account_circle</i></a></div>
+    <br>
+  </div>
+
+
+  <!-- {#    Education Section  #} -->
+  <div class="container">
+    <div class="row card-panel hoverable grey lighten-4">
+      <div class="col s12 m3">
+        <h5>Education</h5>
+      </div>
+      <div class="col s10 m9">
+        <ul>
+          <i class="right">Graduation (expected): May 2021</i>
+          <li><strong>The University of North Carolina at Charlotte</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Bachelors of Science in Computer Science- Data Science</li>
+            <li class="subitem">Minor: Mathematics</li>
+            <li class="subitem"><i>Cumulative GPA: </i> 3.98/4.0</li>
+            <li class="subitem">Chancellors List ~ All Semesters</li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <i class="right">Graduation: June 2017</i>
+          <li><strong>South Iredell High School</strong> - Statesville, NC</li>
+          <ul>
+            <li class="subitem">International Baccalaureate Certificate (MYP/DP Student)</li>
+            <li class="subitem">Overall GPA: 4.9/5.0</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills Section  -->
+    <div class="row card-panel hoverable grey lighten-4">
+      <div class="col s12 m3">
+        <h5>Skills</h5>
+      </div>
+      <div class="col s12 m9">
+        <ul>
+          <li>
+            <strong>Software Libraries & Tools</strong>
+            <ul>
+              <li class="subitem">iPython, Numpy, Pandas, SciKitLearn</li>
+              <li class="subitem">Relational Databases, AWS, Git, Linux</li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            <strong>Languages</strong>
+            <ul>
+              <li class="subitem">Python, Java, SQL, R, C/C++, HTML/CSS</li>
+            </ul>
+          </li>
+          <br>
+          <br>
+          <li>
+            <strong>Computer Science</strong>
+            <ul>
+              <li class="subitem">Code resource/speed optimization, RESTful APIs, Sort/search algorithms, Combinatorics</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- {#    Experience Section  #} -->
+
+    <div class="row card-panel hoverable grey lighten-4">
+      <div class="col s12 m3">
+        <h5>Experience</h5>
+      </div>
+      <div class="col s10 m9">
+        <ul>
+          <i class="right">December 2018 - December 2019</i>
+          <li><strong>Data Structures & Algorithms Lead Teaching Assistant</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Teach higher level programming concepts pertaining to data structures and relevant algorithms.</li>
+            <li class="subitem">Analyze time complexity of the written code</li>
+            <li class="subitem">Lead recitations and one-to-one mentoring for students.</li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <i class="right">May 2019 - August 2019</i>
+          <li><strong>Fidelity Investments - Data Engineering Intern</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Developed and enhanced a conversational bot that provides fund/investment operational data for internal and external clients using AWS tools and natural language processing.</li>
+            <li class="subitem">Queried information for users through web scraping and server connection tools while abiding by users’ security privileges using tokenization.</li>
+            <li class="subitem">Presented multiple product demos to upper management and clients in different organizational groups.</li>
+            <li class="subitem">Implemented Agile methodology and maintained test driven development for UI and backend.</li>
+          </ul>
+        </ul>
+
+        <br>
+        <ul>
+          <i class="right">August 2017 - December 2018</i>
+          <li><strong>Introduction to Computer Science Teaching Assistant</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Teach procedural and basic OOP programming concepts to new CS students.</li>
+            <li class="subitem">Lead a technical lab of 26 students p/week.</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <!-- {#    Activities Section  #} -->
+    <div class="row card-panel hoverable grey lighten-4">
+      <div class="col s12 m3">
+        <h5>Activities</h5>
+      </div>
+      <div class="col s10 m9">
+        <ul>
+          <i class="right">August 2018 - Current</i>
+          <li><strong>Undergraduate Research - Graph Based IoT Bus Arrival & Departure Analysis </strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Conducted quantitative analysis of arrival and departure times of buses at UNC Charlotte to reduce error within foreasted arrival times using IoT sensors.</li>
+            <li class="subitem">Examine bus routes during peak traffic intervals to determine significant paths using shortest path algorithms and related Graph Theory aspects.</li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <i class="right">January 2019 - Current</i>
+          <li><strong>Charlotte Analytics Club - President and Founder</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Biweekly meetings to teach data visualization, analysis, and predictive modeling using Python and R.</li>
+            <li class="subitem">Have Data Scientist in the industry present cutting edge problems that they face in the field.</li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <i class="right">August 2017 - December 2018</i>
+          <li><strong>Undergraduate Research - IoT Integrated Deck</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Research project using scanners to collect, store, and analyze traffic data of the parking decks at UNC Charlotte.</li>
+            <li class="subitem">Analysis of the data Python libraries to find trends and use predictive analysis (ML) to find future traffic occurrences.</li>
+            <li>
+            <li class="subitem"><i>More on this paper coming soon!</i></li>
+            </li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <i class="right">August 2017 - Current</i>
+          <li><strong>Association for Computing Machinery</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Competed in the Intercollegiate Programming Competition at Duke University where groups of students compete against time to solve 8 competetive programming problems.</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.sidenav').sidenav();
+  });
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

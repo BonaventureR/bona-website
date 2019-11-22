@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="css/materialize.css" media="screen,projection">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel='shortcut icon' href='images/favicon.ico' type='images/x-icon' />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta Content-Type=text/html> <meta charset=UTF-8>
+</head>
+
+<body>
+
+  <nav class="extended">
+    <div class="blue darken-1 nav-wrapper z-depth-3 black-text">
+      <ul class="hide-on-med-and-down right">
+        <li class="active"><a href="index">Home</a></li>
+        <li><a href="resume">Resume</a></li>
+      </ul>
+      <div class="container">
+        <a href="#" class="sidenav-trigger" data-target="mobile-navbar"><i class='material-icons'>menu</i></a>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="sidenav grey lighten-4" id="mobile-navbar">
+    <li class="active"><a href="index">Home</a></li>
+    <li class="waves-effect waves-light"><a href="resume">Resume</a></li>
+  </ul>
+
+
+
+
+  <div class="container hide-on-med-and-down show-on-large">
+    <div class="valign-wrapper">
+      <div class="row">
+        <div class="col s12">
+          <div class="col s6"><img class="responsive-img" src="images/bon.png"></div>
+          <div class="col s6">
+            <div class="info">
+              <h3 class="light flow-text">Hi I'm Bonaventure</h3>
+              <h4 class="light flow-text">Computer Science and Mathematics</h4>
+              <br><br><br>
+              <div class="introduction">
+                <p class="light">
+                  I study <strong>Data Science</strong> at the <a href="https://www.uncc.edu/"><strong>University of North Carolina at Charlotte.</strong></a>
+                  My activities stem from a strong interest in Research and Development. I particularly focus on investigating the intersection between Computer Science, Statistics, and Probability Theory
+                  on different ML models. Look through my profile for more information!
+                </p>
+              </div>
+
+              <div class="sources">
+                <a href="https://www.linkedin.com/in/bonaventure-raj-09886a13b/"><img border="0" alt="linkedin" src="images/linkedin.png" width="50" height="50"></a>
+                <a href="https://github.com/BonaventureR"><img border="0" alt="github" src="images/github.png" width="50" height="50"></a>
+                <a href="https://www.facebook.com/bonaventure.raj.31"><img border="0" alt="facebook" src="images/facebook.png" width="50" height="50"></a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="center container show-on-med-and-down hide-on-large-only">
+    <div class="row">
+      <div class="center col s12">
+        <img class="image-mobile" src="images/bon.png">
+        <div class="info-mobile">
+          <h4 class="light">Hi I'm Bonaventure</h4>
+          <h5 class="light">Computer Science and Mathematics</h5>
+          <br><br><br>
+          <div class="introduction-mobile">
+            <p class="light">
+              I study <strong>Data Science</strong> at the <a href="https://www.uncc.edu/"><strong>University of North Carolina at Charlotte.</strong></a>
+              My activities stem from a strong interest in Research and Development. I particularly focus on investigating the intersection between Computer Science, Statistics, and Probability Theory
+              on different ML models. Look through my profile for more information!
+            </p </div> </div> <div class="sources">
+            <a href="https://www.linkedin.com/in/BonaventureR/"><img border="0" alt="linkedin" src="images/linkedin.png" width="50" height="50"></a>
+            <a href="https://github.com/BonaventureR"><img border="0" alt="github" src="images/github.png" width="50" height="50"></a>
+            <a href="https://www.facebook.com/bonaventure.raj.31"><img border="0" alt="facebook" src="images/facebook.png" width="50" height="50"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.sidenav').sidenav();
+      });
+    </script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
