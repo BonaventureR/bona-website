@@ -2,4 +2,6 @@
 
 
 Version :
-  ~ Last Updated November 22 , 2019
+  ~ Last Updated March 1st, 2019
+  
+  Made with Material UI

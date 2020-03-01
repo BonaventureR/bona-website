@@ -8,11 +8,14 @@
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/materialize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel='shortcut icon' href='images/favicon.ico' type='images/x-icon' />
+  <link rel='shortcut icon' href='./favicon.ico' type='images/x-icon' />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="none" />
   <meta Content-Type=text/html> <meta charset=UTF-8>
 </head>
+
+
 <nav class="extended">
   <div class="blue darken-1 nav-wrapper z-depth-3 black-text">
     <ul class="hide-on-med-and-down right">
@@ -43,7 +46,7 @@
   </div>
 
 
-  <!-- {#    Education Section  #} -->
+  <!-- {# Education Section #} -->
   <div class="container">
     <div class="row card-panel hoverable grey lighten-4">
       <div class="col s12 m3">
@@ -51,12 +54,12 @@
       </div>
       <div class="col s10 m9">
         <ul>
-          <i class="right">Graduation (expected): May 2021</i>
+          <i class="right">Graduation (expected): December 2020</i>
           <li><strong>The University of North Carolina at Charlotte</strong> - Charlotte, NC</li>
           <ul>
             <li class="subitem">Bachelors of Science in Computer Science- Data Science</li>
             <li class="subitem">Minor: Mathematics</li>
-            <li class="subitem"><i>Cumulative GPA: </i> 3.98/4.0</li>
+            <li class="subitem"><i>Cumulative GPA: </i> 3.96/4.0</li>
             <li class="subitem">Chancellors List ~ All Semesters</li>
           </ul>
         </ul>
@@ -72,7 +75,7 @@
       </div>
     </div>
 
-    <!-- Skills Section  -->
+    <!-- {# Skills Section #} -->
     <div class="row card-panel hoverable grey lighten-4">
       <div class="col s12 m3">
         <h5>Skills</h5>
@@ -82,15 +85,15 @@
           <li>
             <strong>Software Libraries & Tools</strong>
             <ul>
-              <li class="subitem">iPython, Numpy, Pandas, SciKitLearn</li>
-              <li class="subitem">Relational Databases, AWS, Git, Linux</li>
+              <li class="subitem">iPython, Numpy, Pandas, SciKitLearn, TensorFlow</li>
+              <li class="subitem">Relational Databases, AWS, Git, Linux, ReactJS</li>
             </ul>
           </li>
           <br>
           <li>
             <strong>Languages</strong>
             <ul>
-              <li class="subitem">Python, Java, SQL, R, C/C++, HTML/CSS</li>
+              <li class="subitem">Python, Java, SQL, R, C/C++, HTML/CSS, JavaScript </li>
             </ul>
           </li>
           <br>
@@ -98,19 +101,40 @@
           <li>
             <strong>Computer Science</strong>
             <ul>
-              <li class="subitem">Code resource/speed optimization, RESTful APIs, Sort/search algorithms, Combinatorics</li>
+              <li class="subitem">RESTful APIs, Sort/search algorithms, Deep/Convolutional Neural Networks,
+               Federated/Supervised/Unsupervised Learning</li>
+            </ul>
+          </li>
+          <br>
+          <br>
+          <li>
+            <strong>Mathematics</strong>
+            <ul>
+              <li class="subitem">SVM, Linear/Logistic Regression, Bayesian Probability Theory, Linear Algebra</li>
             </ul>
           </li>
         </ul>
       </div>
     </div>
-    <!-- {#    Experience Section  #} -->
 
+    <!-- {# Experience Section  #} -->
     <div class="row card-panel hoverable grey lighten-4">
       <div class="col s12 m3">
         <h5>Experience</h5>
       </div>
       <div class="col s10 m9">
+        <ul>
+          <i class="right">December 2020 - Current</i>
+          <li><strong>Phylomics</strong> - Georgetown, Washington D.C</li>
+          <ul>
+            <li class="subitem">Early cancer detection startup company based in Halycon Incubator @ Georgetown University.  <a href="https://phylomics.com/">Learn more here.</a></li>
+            <li class="subitem">Working on creating a web application to collect metabolomic, proteomic, and DNA microarray based data forms
+              to process the cancer classification model and display the pertinent phylogenetic tree according to patient data.</li>
+            <li class="subitem">Built the entire backend/cloud structure for data collection.</li>
+            <li class="subitem">Working on displaying the phylogenetic tree for specific patient data.</li>
+          </ul>
+        </ul>
+        <br>
         <ul>
           <i class="right">December 2018 - December 2019</i>
           <li><strong>Data Structures & Algorithms Lead Teaching Assistant</strong> - Charlotte, NC</li>
@@ -144,41 +168,55 @@
       </div>
     </div>
 
-
-
-    <!-- {#    Activities Section  #} -->
+    <!-- {# Research Section #} -->
     <div class="row card-panel hoverable grey lighten-4">
       <div class="col s12 m3">
-        <h5>Activities</h5>
+        <h5>Research</h5>
       </div>
       <div class="col s10 m9">
         <ul>
-          <i class="right">August 2018 - Current</i>
+          <i class="right">December 2020 - Current</i>
+          <li><strong>Undergraduate Research - Augmented Reality Medical Administration System </strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Work with Enterprise Google Glasses and Moverio Epson BT-300 AR systems to alleviate critical mistakes in patient and dosage administration.</li>
+            <li class="subitem">Created an optical character recognition (ocr) model to recognize information on medical bottles and display relevant dosage and type information on the AR device.</li>
+            <li class="subitem">Progress backend development of edge device API services.</li>
+            <li class="subitem">Use supervised and federated learning to run model inferences pertaining to facial detection, facial classification, natural language processing, syringe detection/measurement and ocr models locally
+              on edge devices to increase prediction times and lower data transfer to REST api's to maintain HIPAA compliancy regulations. </li>
+          </ul>
+        </ul>
+        <ul>
+          <i class="right">August 2018 - December 2020</i>
           <li><strong>Undergraduate Research - Graph Based IoT Bus Arrival & Departure Analysis </strong> - Charlotte, NC</li>
           <ul>
             <li class="subitem">Conducted quantitative analysis of arrival and departure times of buses at UNC Charlotte to reduce error within foreasted arrival times using IoT sensors.</li>
             <li class="subitem">Examine bus routes during peak traffic intervals to determine significant paths using shortest path algorithms and related Graph Theory aspects.</li>
           </ul>
         </ul>
-        <br>
-        <ul>
-          <i class="right">January 2019 - Current</i>
-          <li><strong>Charlotte Analytics Club - President and Founder</strong> - Charlotte, NC</li>
-          <ul>
-            <li class="subitem">Biweekly meetings to teach data visualization, analysis, and predictive modeling using Python and R.</li>
-            <li class="subitem">Have Data Scientist in the industry present cutting edge problems that they face in the field.</li>
-          </ul>
-        </ul>
-        <br>
         <ul>
           <i class="right">August 2017 - December 2018</i>
           <li><strong>Undergraduate Research - IoT Integrated Deck</strong> - Charlotte, NC</li>
           <ul>
             <li class="subitem">Research project using scanners to collect, store, and analyze traffic data of the parking decks at UNC Charlotte.</li>
             <li class="subitem">Analysis of the data Python libraries to find trends and use predictive analysis (ML) to find future traffic occurrences.</li>
-            <li>
-            <li class="subitem"><i>More on this paper coming soon!</i></li>
             </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <!-- {# Activities Section #} -->
+    <div class="row card-panel hoverable grey lighten-4">
+      <div class="col s12 m3">
+        <h5>Activities</h5>
+      </div>
+      <div class="col s10 m9">
+        <ul>
+          <i class="right">January 2019 - Current</i>
+          <li><strong>Charlotte Analytics Club - President and Founder</strong> - Charlotte, NC</li>
+          <ul>
+            <li class="subitem">Biweekly meetings to teach data visualization, analysis, and predictive modeling using Python and R.</li>
+            <li class="subitem">Have Data Scientist in the industry present cutting edge problems that they face in the field.</li>
           </ul>
         </ul>
         <br>
